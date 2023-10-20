@@ -58,3 +58,4 @@ packages/
 
 # Игнорировать файлы с расширением .sln.docstates
 *.sln.docstates
+
