@@ -50,5 +50,5 @@ appsettings.json
 *.pidb
 
 # Игнорировать файлы и папки, создаваемые dotnet CLI
-bin/
-obj/
+**/bin/
+**/obj/
