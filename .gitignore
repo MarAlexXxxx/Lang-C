@@ -1,54 +1,60 @@
-# Игнорировать файлы и папки, создаваемые Visual Studio
-.vscode/
-.vs/
-bin/
-obj/
-
-# Игнорировать папку с пакетами NuGet
-packages/
-
-# Игнорировать файлы, создаваемые Rider (IDE от JetBrains)
-.idea/
-.idea.*
-
-# Игнорировать файлы, создаваемые Visual Studio Code
-.vscode/
-.vscode-test/
-
-# Игнорировать файлы, создаваемые Rider (IDE от JetBrains)
-.idea/
-.idea.*
-
-# Игнорировать файлы, создаваемые MonoDevelop
-.vscode/
-.vscode-test/
-*.suo
-*.userprefs
-*.pidb
-
-# Игнорировать файлы, создаваемые Rider (IDE от JetBrains)
-.idea/
-.idea.*
-
-# Игнорировать файлы с расширением .sln и .csproj.user
-*.sln
-*.suo
-*.userprefs
-*.pidb
-*.csproj.user
-
-# Игнорировать папку, содержащую логи
-logs/
-
-# Игнорировать файлы с конфиденциальными данными, такие как appsettings.json
-appsettings.json
-
-# Игнорировать файлы с исключенными настройками среды
-*.vssettings
-*.suo
-*.userprefs
-*.pidb
-
-# Игнорировать файлы и папки, создаваемые dotnet CLI
+# Игнорировать папки bin и obj в проектах на C#
 **/bin/
 **/obj/
+
+# Игнорировать файлы, созданные Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Игнорировать файлы, созданные Rider (IDE от JetBrains)
+.idea/
+.idea/
+
+# Игнорировать файлы, созданные MonoDevelop
+monodevelop-report.xml
+monodevelopuserprefs
+
+# Игнорировать файлы с настройками среды
+*.suo
+*.userprefs
+*.usertasks
+*.user
+*.vscode-test
+*.sln.docstates
+
+# Игнорировать файлы с расширением .userprefs
+*.userprefs
+
+# Игнорировать файлы с расширением .suo
+*.suo
+
+# Игнорировать файлы с расширением .csproj.user
+*.csproj.user
+
+# Игнорировать файлы с расширением .ide
+*.ide
+
+# Игнорировать файлы с расширением .pdb
+*.pdb
+
+# Игнорировать файлы с расширением .dll
+*.dll
+
+# Игнорировать файлы с расширением .exe
+*.exe
+
+# Игнорировать папку с пакетами NuGet (если она находится в корне)
+packages/
+
+# Игнорировать файлы с расширением .userprefs
+*.userprefs
+
+# Игнорировать файлы с расширением .vssettings
+*.vssettings
+
+# Игнорировать файлы с расширением .sln.docstates
+*.sln.docstates
