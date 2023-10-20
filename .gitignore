@@ -1,0 +1,54 @@
+# Игнорировать файлы и папки, создаваемые Visual Studio
+.vscode/
+.vs/
+bin/
+obj/
+
+# Игнорировать папку с пакетами NuGet
+packages/
+
+# Игнорировать файлы, создаваемые Rider (IDE от JetBrains)
+.idea/
+.idea.*
+
+# Игнорировать файлы, создаваемые Visual Studio Code
+.vscode/
+.vscode-test/
+
+# Игнорировать файлы, создаваемые Rider (IDE от JetBrains)
+.idea/
+.idea.*
+
+# Игнорировать файлы, создаваемые MonoDevelop
+.vscode/
+.vscode-test/
+*.suo
+*.userprefs
+*.pidb
+
+# Игнорировать файлы, создаваемые Rider (IDE от JetBrains)
+.idea/
+.idea.*
+
+# Игнорировать файлы с расширением .sln и .csproj.user
+*.sln
+*.suo
+*.userprefs
+*.pidb
+*.csproj.user
+
+# Игнорировать папку, содержащую логи
+logs/
+
+# Игнорировать файлы с конфиденциальными данными, такие как appsettings.json
+appsettings.json
+
+# Игнорировать файлы с исключенными настройками среды
+*.vssettings
+*.suo
+*.userprefs
+*.pidb
+
+# Игнорировать файлы и папки, создаваемые dotnet CLI
+bin/
+obj/
